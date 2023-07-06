@@ -1,0 +1,147 @@
+.topbar {
+    display: inline-block;
+    background: linear-gradient(rgb(0 0 0 / 31%), rgb(117 163 165 / 0%));
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+    height: 13 5px;
+}
+
+.colg-logo {
+    position: absolute;
+    z-index: 1;
+    margin-left: 7px;
+}
+
+.clg-name {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 26px;
+}
+
+.clg-name img {
+    width: 51%;
+    height: 110px;
+}
+
+.govt-logo-div {
+    width: 20%;
+    margin-top: -54px;
+    margin-left: 1148px;
+    position: relative;
+}
+
+
+.combat_logo {
+    color: white;
+    font-size: 29px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.combat_logo span {
+    color: #00dcff;
+    font-size: 32px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 700;
+
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.navbar ul li {
+    padding: 15px 22px;
+}
+
+.navbar ul li a {
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active {
+    color: rgba(6, 183, 253, 0.863);
+
+}
+
+.combat p {
+    color: white;
+    font-size: 150px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: 800;
+    margin: -15px 0px 0px 7px;
+    padding: 0;
+    text-align: left;
+
+}
+
+.combat span {
+    margin: 0;
+    color: #060505db;
+    font-size: 90px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: 600;
+}
+
+.intro {
+    color: black;
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 260px;
+    padding-bottom: 2px;
+}
+
+
+.image img {
+    width: 190px;
+    height: 190px;
+    /* border: 4px solid black; */
+    position: absolute;
+    margin-left: -458px;
+    margin-top: -15px;
+
+}
+
+.image_name h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 2px;
+    padding-left: -10px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.photo img {
+    width: 44%;
+    height: 350px;
+    /* border: 4px solid black; */
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -145px;
+}
+
+@media only screen and (max-width:1370px) {
+    
+    
+}

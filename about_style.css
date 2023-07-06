@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.combat_logo {
+    color: white;
+    font-size: 29px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.combat_logo span {
+    color: #00dcff;
+    font-size: 32px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 700;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #107db7f5;
+    box-shadow:inset;
+    padding: 0px 4px 0px 4px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.navbar ul li {
+    padding: 15px 22px;
+}
+
+
+.navbar ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active {
+    color: rgba(6, 183, 253, 0.863);
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 23px;    
+}
+
+.line{
+    width: 35px;
+    background-color: black;
+    height: 5px;
+    margin: 5px 5px;
+}
+
+.heading {
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    font-weight: 100;
+    margin-top: 45px;
+    color: black;
+    padding: 0px 20px 0px 20px;
+}
+
+.content {
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.content p { 
+    padding: 4px 4px 4px 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.point{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid plum;
+}
+
+.subheading{
+    font-size: 25px;   
+    font-weight: 600;
+}
+
+.subcontent{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+}
+
+.bottam{
+    background-color: rgba(105, 102, 99, 0.801);
+    height: 350px;
+    margin-top: 50px;
+}
+
+.first{
+    padding: 5px 5px 5px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first h3{
+    color: rgb(26, 24, 24);
+    font-size: 22px;
+}
+
+.college_add{
+    color: #000000;
+    padding: 5px 5px 5px 25px;
+    margin-top: -5px;
+    font-size: 20px;
+}
+
+.created{
+    font-size: 25px;
+    margin-right: 270px;
+}
+
+.second{
+    padding: 5px 5px 5px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second h3{
+    color: rgb(26, 24, 24);
+    font-size: 15px;
+}
+
+.info {
+    font-size: 20px;
+    margin-right: 53px;
+}
+
+.info h3{
+    font-size: 22px;
+    margin-top: -5px;
+    margin-left: 30px;
+} 
+
+@media only screen and (max-width:1108px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar ul{
+        flex-direction: column;
+        background-color: #107db7f5;
+        transition: all 0.4s ease-out;
+        z-index: 1;
+    }
+
+    .responsive{
+        width: 100%;
+    }
+
+    .combat_logo {
+        font-size: 26px;
+        padding-top: 5px ;
+        padding-left: 2px;
+        margin-left: -44px;
+        margin-top: 18px;
+    }
+    
+    .combat_logo span {
+        font-size: 28px;
+        padding-top: 5px ;
+        margin-top: 8px;    
+    }
+
+    .burger{
+        display: block;
+        margin-right: 4px;
+    }
+
+    .h-nav-resp{
+        height: 372px;
+    }
+    .visibility_resp{
+        opacity: 0;
+    }
+
+    .bottam{
+        max-width: 100%;
+        height: 550px;
+        margin-top: 50px;
+    }
+
+    .first{
+        padding: 5px 5px 5px 20px;
+        
+    }
+    
+    .first h3{
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+    } 
+    
+    .college_add{
+        padding: 5px 5px 5px 0px;
+    }
+
+    .created{
+        font-size: 25px;
+        margin-right: 0px;
+    }
+    
+    .second{
+        padding: 5px 5px 5px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .second h3{
+        color: rgb(26, 24, 24);
+        font-size: 15px;
+    }
+    
+    .info {
+        font-size: 20px;
+        margin-right: 53px;
+    }
+    
+    .info h3{
+        font-size: 20px;
+        margin-top: -5px;
+        margin-left: 5px;
+    } 
+
+    
+
+}
